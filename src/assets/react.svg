@@ -1,0 +1,15 @@
+<svg viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="disk-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFDF8C" />
+      <stop offset="50%" stop-color="#FFCC66" />
+      <stop offset="100%" stop-color="#FFB74D" />
+    </linearGradient>
+  </defs>
+  <path d="M12 1c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8z" fill="url(#disk-gradient)" />
+  <path id="disk-path" d="M11.5 5h1v5h-1z" fill="#FFF" />
+  <animate xlink:href="#disk-path" attributeName="d" from="M11.5 5h1v5h-1z" to="M12.5 5h-1v5h1z" dur="0.5s" begin="0s" repeatCount="indefinite" />
+  <animate xlink:href="#disk-path" attributeName="fill" values="#FFF;#FFDF8C" dur="0.5s" begin="0s" repeatCount="indefinite" />
+  <animate xlink:href="#disk-path" attributeName="fill" values="#FFDF8C;#FFCC66" dur="0.5s" begin="0.5s" repeatCount="indefinite" />
+  <animate xlink:href="#disk-path" attributeName="fill" values="#FFCC66;#FFB74D" dur="0.5s" begin="1s" repeatCount="indefinite" />
+</svg>
